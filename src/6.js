@@ -1,3 +1,7 @@
+/*
+ * 作用域链的一个简单例子 
+ */
+
 let a = 1
 function fn(){
     let b = 2

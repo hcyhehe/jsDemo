@@ -1,3 +1,7 @@
+/*
+ * 函数几种创建方式，以及各自this的指向
+ */
+
 var a = function(){  //this指向window
     console.log(this)
 }

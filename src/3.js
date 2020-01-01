@@ -1,3 +1,7 @@
+/*
+ * new实例化一个对象与直接调用一个函数有什么区别
+ */
+
 function Test() {  
     this.name = "test" 
     //return "test"

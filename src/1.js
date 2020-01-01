@@ -1,3 +1,7 @@
+/*
+ * call、apply和bind的区别
+ */
+
 var name = 'Jack'
 var age = 18
 var obj = {
