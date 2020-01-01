@@ -1,0 +1,2 @@
+# jsDemo
+一些JavaScript的demo，用于学习和理解JavaScript的基础
