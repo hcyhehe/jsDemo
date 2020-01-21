@@ -2,16 +2,12 @@
  * 闭包的一个简单例子 
  */
 
-function aaa(){
-    let name = 'xixi'
-    let fun = function bbb(){
-        return name
+function outer(){
+    var a = 1
+    return function() {
+        return a
     }
 }
-
-function ccc(){
-    let aaaValue = aaa.fun
-    console.log(aaaValue)
-}
-ccc()
+var b = outer()()  //因为return了一个函数，所以下面要调用两次
+console.log(b)  //1
 
