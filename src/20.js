@@ -2,6 +2,6 @@
 let aa = 1
 const bb = 2
 var cc = 3
-console.log(window.aa)
-console.log(window.bb)
-console.log(window.cc)
+console.log(window.aa)  //undefined
+console.log(window.bb)  //undefined
+console.log(window.cc)  //3
